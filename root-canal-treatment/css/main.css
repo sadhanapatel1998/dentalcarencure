@@ -1,0 +1,116 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color: #969696;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px;
+  height:auto;
+  padding: 10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 20pt;
+  color: #ff3b00;
+}
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+body{
+  background: url('bg.jpg');
+}
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18pt;
+	text-align: center;
+	padding: 10px 0px 0px;
+}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+	padding: 10px 20px;
+	color: #000;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  /* background-color: #D1D1D1; */
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+
+.blinker{
+font-family: muli,arial,sans-serif;
+font-size: 24px;
+font-weight: bold; 
+color:#333;
+animation: changecolor 2s infinite;
+-moz-animation: changecolor 5s infinite; 
+-webkit-animation: changecolor 5s infinite;
+-ms-animation: changecolor 5s infinite; 
+-o-animation: changecolor 5s infinite; 
+}
+ 
+@keyframes changecolor
+{
+0%   {color: red;}
+25%  {color: #333;}
+50%  {color: blue;}
+100% {color: green;}
+}
+/* Mozilla Browser */
+@-moz-keyframes changecolor 
+{
+0%   {color: red;}
+25%  {color: #333;}
+50%  {color: #009afc;}
+100% {color: green;}
+}
+/* WebKit browser Safari and Chrome */
+@-webkit-keyframes changecolor 
+{
+0%   {color: red;}
+25%  {color: #333;}
+50%  {color: #009afc;}
+100% {color: green;}
+}
+/* IE 9,10*/
+@-ms-keyframes changecolor 
+{
+0%   {color: red;}
+25%  {color: #333;}
+50%  {color: #009afc;}
+100% {color: green;}
+}
+/* Opera Browser*/
+@-o-keyframes changecolor 
+{
+0%   {color: red;}
+25%  {color: #333;}
+50%  {color: #009afc;}
+100% {color: green;}
+}
+

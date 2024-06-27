@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+		
+	
+    <system.webServer>
+        <directoryBrowse enabled="false" />
+        <defaultDocument>
+            <files>
+                <clear />
+            
+                <add value="index.html" />
+                <add value="index.asp" />
+                <add value="default.html" />
+                <add value="default.php" />
+                <add value="index.php" />
+                <add value="Default.htm" />
+                <add value="Default.asp" />
+                <add value="index.htm" />
+                <add value="index.html" />
+                <add value="iisstart.htm" />
+                <add value="default.aspx" />
+            </files>
+        </defaultDocument>
+    </system.webServer>
+</configuration>

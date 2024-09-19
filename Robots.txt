@@ -1,4 +1,4 @@
 user-agent: *
 Allow: /
 
-Sitemap:http://www.dentalcarencure.com/sitemap.xml
+Sitemap:https://www.dentalcarencure.com/sitemap.xml

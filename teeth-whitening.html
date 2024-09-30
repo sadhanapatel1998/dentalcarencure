@@ -134,7 +134,10 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
         })(window, document, 'script', 'dataLayer', 'GTM-WXFMHMFJ');</script>
     <!-- End Google Tag Manager -->
 
-
+	<script>if (window.location.pathname.endsWith(".html")) {
+        window.history.replaceState(null, null, window.location.pathname.replace(".html", ""));
+    }
+</script>
 
 
 
